@@ -18,5 +18,5 @@ services:
       - db
     command: python script.py
 
-volumes:
-  - .:/app # will share the local folder with the container
+    volumes:
+      - .:/app # will share the local folder with the container
