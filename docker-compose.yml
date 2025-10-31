@@ -1,4 +1,4 @@
-version: '3.8'
+# version: '3.8'
 services:
   db:
     image: postgres:15
@@ -19,4 +19,4 @@ services:
     command: python script.py
 
     volumes:
-      - .:/app # will share the local folder with the container
+      pgdata: 
