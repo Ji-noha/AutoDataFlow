@@ -1,19 +1,19 @@
 # Auto data flow 
-Weather Data ETL Pipeline
+** Weather Data ETL Pipeline
 
 This is a small personal project that demonstrates an end-to-end data pipeline:
 
-Scrapes weather data from an API.
+-Scrapes weather data from an API.
 
-Cleans and transforms the data using Python and Pandas.
+-Cleans and transforms the data using Python and Pandas.
 
-Stores the data in a PostgreSQL database.
+-Stores the data in a PostgreSQL database.
 
-Containerized with Docker and Docker Compose.
+-Containerized with Docker and Docker Compose.
 
-Automated build and deployment using Jenkins (CI/CD pipeline).
+-Automated build and deployment using Jenkins (CI/CD pipeline).
 
-Technologies Used
+** Technologies Used
 
 Python & Pandas
 
