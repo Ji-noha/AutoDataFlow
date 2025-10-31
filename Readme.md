@@ -1,2 +1,28 @@
 # Auto data flow 
-This project scrapes data from APIs, cleans it, and saves it to PostgreSQL. The pipeline is containerized with Docker Compose (Python + database), and a Jenkins CI/CD pipeline automates testing, building, and pushing the Docker image
+Weather Data ETL Pipeline
+
+This is a small personal project that demonstrates an end-to-end data pipeline:
+
+Scrapes weather data from an API.
+
+Cleans and transforms the data using Python and Pandas.
+
+Stores the data in a PostgreSQL database.
+
+Containerized with Docker and Docker Compose.
+
+Automated build and deployment using Jenkins (CI/CD pipeline).
+
+Technologies Used
+
+Python & Pandas
+
+PostgreSQL
+
+Docker & Docker Compose
+
+Jenkins (CI/CD)
+
+Bash/Linux (basic automation)
+
+“This project is configured with hardcoded database credentials for personal use.”
