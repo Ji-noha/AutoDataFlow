@@ -19,4 +19,4 @@ services:
     command: python script.py
 
 volumes:
-  pgdata:
+  - .:/app # will share the local folder with the container
